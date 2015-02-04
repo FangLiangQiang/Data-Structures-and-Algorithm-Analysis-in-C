@@ -2,7 +2,7 @@
 
 int MaxSubsequenceSum(const int A[],int N)
 {
-	int ThisSum,MaxSum,i,j,k;
+	int ThisSum,MaxSum=0,i,j,k;
 	for(i=0;i<=N;i++)
 	{
 		for (j=0;j<=N;j++)
